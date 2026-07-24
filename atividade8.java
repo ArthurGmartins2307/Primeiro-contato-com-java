@@ -1,6 +1,7 @@
 public class atividade8 {
     public static void main(String[] args) {
         Carro carroArthur = new Carro("Jeep", "Renegade");
+        carroArthur.acelerar();
         carroArthur.frear();
         carroArthur.mostrarVelocidade();
     }
